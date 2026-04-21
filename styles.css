@@ -2,4 +2,36 @@ img{
     border-radius: 1000px;
     width: 20px;
     height: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+div.social-media{
+    text-align: center;
+}
+
+div.social-media h4{
+    color: black;
+    text-align: center;
+}
+
+div.social-media a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.youtube{
+    color: red;
+}
+
+.twitter{
+    color: #1DA1F2;
+}
+
+.tiktok{
+    color: black;
+}
+
+.instagram{
+    color: #E1306C;
 }
