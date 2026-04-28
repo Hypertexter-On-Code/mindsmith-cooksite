@@ -1,0 +1,96 @@
+section.profile{
+display: flex;
+justify-content: center;
+}
+
+.holder{
+    display: flex;
+        width: 200px;
+        height: auto;
+        justify-content: center;
+}
+
+.mr-solomon,.honour-profile,.mije-profile h3{
+    text-align: center;
+}
+
+.mr-solomon,.honour-profile,.mije-profile{
+    /* display: inline-block; */
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: gainsboro;
+    margin-right: 20px;
+}
+
+
+.mr-solomon img{
+    width: 250px;
+    height: auto;
+    padding: 0px;
+    border-radius: 20px;
+
+}
+
+.mije-profile img{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.honour-profile img{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media h4{
+    color: black;
+    text-align: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.social-media img{
+height: 17px;
+width: 17px;
+margin-right: 5px;
+}
+
+.facebook{
+    color: #0866FF;
+    margin-left: 0.9em;
+}
+.youtube{
+    color: red;
+}
+
+.twitter{
+    color: #1DA1F2;
+}
+
+.tiktok{
+    color: black;
+}
+
+.instagram{
+    color: #E1306C;
+}
+
+table,tr,td{
+ 
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        border-collapse: collapse;
+        border-radius: 20px;
+    }
