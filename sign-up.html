@@ -17,44 +17,48 @@
 </head>
 <body>
 
-        <div class="holder quicksand">
+        <div class="holder quicksand"> <!-- Quicksand font & Holder Style -->
+
                         
             <h1>Sign Up</h1>
             <p>Create your account for free and access 5000+ Recipes</p>
 
             <form>
 
-                <div class="username">
-                    <label for="">Username</label>
-                    <input type="text" placeholder="Enter your username" required>
-                </div>
+                <div class="main-form">
 
-                <div class="email">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter your username" required>
 
-                    <label for="">Email</label>
-                    <input type="email" placeholder="Enter your email" required>
+                    
+                        <label for="email">Email</label>
+                        <input type="email"id="email" placeholder="Enter your email" required>
 
-                </div>
 
-                <div class="password">
-
-                    <label for="">Password</label>
-                    <input type="password" placeholder="Use a strong password" required>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Use a strong password" required>
 
                 </div>
 
+                
+
+                <input type="checkbox" id="term">
+                <label for="term">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy policy</a>.</label><br><br>
+
+                <button disabled class="submit" title="Feature Unavailable">Sign Up</button>
+
+                <p>Already have an account? <a href="#" class="Sign-In">Sign In</a></p>
                 
             </form>
 
             <!-- A label outside a <form> is unusual but just to separate the checkboxes in this case -->
 
-                   <input type="checkbox" id="term">
-                   <label for="term">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy policy</a>.</label><br><br>
+
              
 
-                <a class="submit" disabled title="disabled">Sign Up</a>
+                <!-- <a class="submit" disabled title="disabled">Sign Up</a> -->
 
-                <p>Already have an account? <a href="#" class="Sign-In">Sign In</a></p>
+
         </div>
 
     
