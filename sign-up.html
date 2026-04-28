@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Mindsmith Cooksite</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+     
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+
+        <div class="holder quicksand">
+                        
+            <h1>Sign Up</h1>
+            <p>Create your account for free and access 5000+ Recipes</p>
+
+            <form>
+
+                <div class="username">
+                    <label for="">Username</label>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+
+                <div class="email">
+
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+
+                </div>
+
+                <div class="password">
+
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Use a strong password" required>
+
+                </div>
+
+                
+            </form>
+
+            <!-- A label outside a <form> is unusual but just to separate the checkboxes in this case -->
+
+                   <input type="checkbox" id="term">
+                   <label for="term">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy policy</a>.</label><br><br>
+             
+
+                <a class="submit" disabled title="disabled">Sign Up</a>
+
+                <p>Already have an account? <a href="#" class="Sign-In">Sign In</a></p>
+        </div>
+
+    
+
+</body>
+</html>
