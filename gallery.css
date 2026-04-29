@@ -2,6 +2,22 @@ body {
     background-color: rgb(212, 212, 145);
 }
 
+.toolbar {
+    text-align: right;
+    font-size: 30px;
+}
+
+.toolbar i {
+    color: black;
+    cursor: pointer;
+}
+
+.toolbar i:hover {
+    color: lightskyblue;
+}
+
+/* Others */
+
 header {
     text-align: center;
 }
