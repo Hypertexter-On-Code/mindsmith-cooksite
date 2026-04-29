@@ -5,3 +5,5 @@ Sign-Up background image: https://unsplash.com/illustrations/collection-of-food-
 
 Favicon: https://img.icons8.com/officel/80/chef-hat.png
 Favicon Attribution code: "<a target="_blank" href="https://icons8.com/icon/lbKAq3H5gTdJ/chef-hat">Chef Hat</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>"
+
+Place holder images: https://placehold.co/

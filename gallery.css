@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(212, 212, 145);
+}
+
+main {
+    text-align: center;
+}
+
+/* RECIPE */
+
+.recipe {
+    display: inline-block;
+    border: 2px ridge grey;
+    background-color: rgb(230, 207, 131);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 600px;
+}
+
+.recipe:hover{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 18px 6px rgba(100, 100, 100, 0.6);
+    transition: 0.4s;
+}
+
+.recipe img{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.recipe p{
+    border-bottom: 2px ridge black;
+    padding-bottom: 10px;
+}
+
+/* Learn button */
+
+.recipe a{
+    display: inline-block;
+   text-decoration: none;
+   color: white;
+   width: 90%;
+   background-color: #00cc00;
+   border: 3px solid white;
+   border-radius: 15px;
+
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+.recipe a:hover{
+   text-decoration: none;
+   color: white;
+   background-color: #05df05;
+   padding: 10px;
+}
+
+.recipe a:active{
+   text-decoration: none;
+   color: white;
+   background-color: #31b631;
+   padding: 10px;
+}
+
+/* Others */
+
+.recipe i{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.recipe i:hover{
+    background-color: whitesmoke;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    border-radius: 20px;
+}
